@@ -1,0 +1,24 @@
+{
+  "name": "react2",
+  "version": "1.0.0",
+  "description": "react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linshark/react2.git"
+  },
+  "keywords": [
+    "react",
+    "test",
+    "study"
+  ],
+  "author": "linshark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linshark/react2/issues"
+  },
+  "homepage": "https://github.com/linshark/react2#readme"
+}
