@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/linshark/react2/issues"
   },
-  "homepage": "https://github.com/linshark/react2#readme"
+  "homepage": "https://github.com/linshark/react2#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.1"
+  }
 }
