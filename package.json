@@ -4,7 +4,10 @@
   "description": "react project",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack",
+    "start": "webpack --entry ./src/index.js -o ./public",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
     "jquery": "^3.5.1"
   },
   "devDependencies": {
+    "eslint": "^7.17.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
   }
