@@ -1,6 +1,17 @@
-ololofbfgbg
-sgrgrmomomomomoomo
-yugugug
-googogogogo
-
-hhhh
+module: {
+        rules: [
+            {
+                test: /\.less/,
+                use: ExtractTextPlugin.extract({
+                    fallback: 'style-loader',
+                    use: ['css-loader', 'less-loader']
+                })
+            }
+        ]
+      },
+      plugins: [
+        new ExtractTextPlugin({
+            filename: 'styles.css',
+            allChunks: true
+        })
+    ],

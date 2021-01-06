@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+.b-test{
+    margin-top: 50px;
+    padding: 30px;
+    background: #fff;
+}
+.b-test_heading{
+    font-size: 40px;
+    color: blue;
+}
